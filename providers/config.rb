@@ -19,7 +19,7 @@
 #
 # Manage RabbitMQ configuration files.
 
-def initialize(new_resource, run_context)
+ef initialize(new_resource, run_context)
   super
   @nodename = new_resource.nodename
   @kernel   = new_resource.kernel
