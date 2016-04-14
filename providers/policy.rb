@@ -47,7 +47,7 @@ end
 
 private
 
-def compile_attributes
+ef compile_attributes
   return {
     'pattern' => @pattern,
     'definition' => @definition,
